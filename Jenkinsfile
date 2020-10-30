@@ -11,7 +11,7 @@ pipeline {
         stage('run python script'){
             steps{
                 //Run the script with Python 3
-                python3 helloworld.py
+                sh 'python3 helloworld.py'
             }
         }
     }
