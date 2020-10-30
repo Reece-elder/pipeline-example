@@ -1,6 +1,6 @@
 #! /bin/bash
 
-mkdir groovyscripts
-cd groovyscripts
+mkdir newFolder
+cd newFolder
 touch helloworld.py
 echo "print('this is a test')" > helloworld.py
